@@ -88,6 +88,7 @@ function CreateSettingsModalFrame() {
 	result += '<span id="modal-desktop-notif-size-control" class="input-control-disabled"><span class="input-title">Desktop Notification Size</span><div id="modal-desktop-notif-size-dropdown" class="ui disabled compact selection dropdown"><input id="modal-desktop-notif-size-input" type="hidden" name="formatting" value="large"><i class="dropdown icon"></i><div class="default text">Notif Size</div><div class="menu"><div class="item" data-value="small">Small</div><div class="item" data-value="large">Large</div></div></div></span>';
 	result += '<button id="modal-enable-sound" class="ui bigger button right labeled icon">Enable Sound Notifications<i class="right alarm outline icon"></i></button>';
 	result += '<span id="modal-sound-choice-control" class="input-control-disabled"><span class="input-title">Sound Notification Choice</span><div id="modal-sound-choice-dropdown" class="ui compact selection disabled dropdown"><input id="modal-sound-choice-input" type="hidden" name="formatting" value="beeps"><i class="dropdown icon"></i><div class="default text">Sound Choice</div><div class="menu">';
+	result += '<div class="item" data-value="funf-dancho">GBF - Funf - DANCHO!</div>';
 	result += '<div class="item" data-value="beeps">Beeps Appear</div>';
 	result += '<div class="item" data-value="lily-event-ringring">GBF - Lily (Event) - Ring Ring</div>';
 	result += '<div class="item" data-value="andira-oniichan">GBF - Andira - Onii-chan</div>';
